@@ -1,6 +1,38 @@
-.App {
-  text-align: center;
+
+
+div{
+  display: flex;
+  height: 600px;
+  align-items:flex-start
 }
+
+
+ .topText{
+  position: absolute;
+  top: 10px;
+  font-family: impact;
+  font-size: 3em; 
+}
+
+ .bottomText{
+  position: absolute;
+  bottom: 10px;
+  font-family: impact;
+  font-size: 3em; 
+}
+/*
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+*/
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
